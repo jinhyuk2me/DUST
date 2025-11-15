@@ -11,20 +11,46 @@
 
 # 📚 Table of Contents
 
-- [1. Project Overview](#1-project-overview)
-- [2. Project Goal](#2-project-goal)
-- [3. System Design](#3-system-design)
-- [4. Key Features](#4-key-features)
-- [5. Technical Challenges](#5-technical-challenges)
-- [6. Limitations & Scalability](#6-limitations--scalability)
-- [7. Tech Stack](#7-tech-stack)
-- [8. Team](#8-team)
+- [1. Team](#1-team)
+- [2. Project Overview](#2-project-overview)
+- [3. Project Goal](#3-project-goal)
+- [4. System Design](#4-system-design)
+- [5. Key Features](#5-key-features)
+- [6. Technical Challenges](#6-technical-challenges)
+- [7. Limitations & Scalability](#7-limitations--scalability)
+- [8. Tech Stack](#8-tech-stack)
 
 > 📄 Korean version: [`README.ko.md`](README.ko.md)
 
+# 1. Team
+
+### 🧑‍💼 Daein Kim [`@Daeinism`](https://github.com/Daeinism)
+- Project lead for DUST
+- Designed and built the resource distributor hardware/firmware
+- Designed and built the gate module hardware/firmware
+
+### 🧑‍💼 Geonwoo Lee [`@DigitalNomad230`](https://github.com/DigitalNomad230)
+- Reviewed and maintained technical documentation
+- Built the resource storage hardware/firmware
+- Implemented logic that links container capacity with facility operation
+
+### 🧑‍💼 Seunghoon Lee [`@leesh0806`](https://github.com/leesh0806)
+- Developed the AGV module and mechanical structure
+- Designed AGV circuitry
+- Implemented the line-tracing control algorithm
+- Built FSM-based driving control
+- Implemented the AGV TCP communication protocol
+
+### 🧑‍💼 Jinhyeok Jang [`@jinhyuk2me`](https://github.com/jinhyuk2me)
+- Designed and implemented the main server
+- Designed and developed the GUI
+- Authored the overall system architecture
+- Defined the communication interfaces
+- Built and managed the database
+
 ---
 
-# 1. Project Overview
+# 2. Project Overview
 > ⏰ Period: 3 May – 15 May 2025
 
 <p align="center">
@@ -36,7 +62,7 @@
 
 ---
 
-# 2. Project Goal
+# 3. Project Goal
 
 <p align="center">
   <img src="https://github.com/addinedu-ros-9th/iot-repo-4/blob/main/assets/images/agv.jpg?raw=true" width="50%">
@@ -46,7 +72,7 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 
 ---
 
-# 3. System Design
+# 4. System Design
 
 ## System Architecture
 
@@ -62,7 +88,7 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 
 ---
 
-# 4. Key Features
+# 5. Key Features
  
 ## 🚚 AGV-related Functions
 
@@ -128,7 +154,7 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 
 ---
 
-# 5. Technical Challenges
+# 6. Technical Challenges
 
 | Issue | Root Cause | Resolution |
 |-------|------------|------------|
@@ -137,7 +163,7 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 
 ---
 
-# 6. Limitations & Scalability
+# 7. Limitations & Scalability
 
 | Limitation | Current Behavior | Future Direction |
 |------------|------------------|------------------|
@@ -148,7 +174,7 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 
 ---
 
-# 7. Tech Stack
+# 8. Tech Stack
 
 | Category | Technologies | |
 |----------|-------------|--|
@@ -161,29 +187,3 @@ Industrial sites increasingly need `AGVs (Automated Guided Vehicles)` that can a
 | **Collaboration** | Confluence, Slack, Jira | ![Confluence](https://img.shields.io/badge/confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Slack](https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white) |
 
 ---
-
-# 8. Team
-
-### 🧑‍💼 Daein Kim [`@Daeinism`](https://github.com/Daeinism)
-- Project lead for DUST
-- Designed and built the resource distributor hardware/firmware
-- Designed and built the gate module hardware/firmware
-
-### 🧑‍💼 Geonwoo Lee [`@DigitalNomad230`](https://github.com/DigitalNomad230)
-- Reviewed and maintained technical documentation
-- Built the resource storage hardware/firmware
-- Implemented logic that links container capacity with facility operation
-
-### 🧑‍💼 Seunghoon Lee [`@leesh0806`](https://github.com/leesh0806)
-- Developed the AGV module and mechanical structure
-- Designed AGV circuitry
-- Implemented the line-tracing control algorithm
-- Built FSM-based driving control
-- Implemented the AGV TCP communication protocol
-
-### 🧑‍💼 Jinhyeok Jang [`@jinhyuk2me`](https://github.com/jinhyuk2me)
-- Designed and implemented the main server
-- Designed and developed the GUI
-- Authored the overall system architecture
-- Defined the communication interfaces
-- Built and managed the database

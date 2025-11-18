@@ -24,6 +24,13 @@
 
 # 1. Team
 
+### 🧑‍💼 Jinhyuk Jang [`@jinhyuk2me`](https://github.com/jinhyuk2me)
+- Designed and implemented the main server
+- Designed and developed the GUI
+- Authored the overall system architecture
+- Defined the communication interfaces
+- Built and managed the database
+
 ### 🧑‍💼 Daein Kim [`@Daeinism`](https://github.com/Daeinism)
 - Project lead for DUST
 - Designed and built the resource distributor hardware/firmware
@@ -40,13 +47,6 @@
 - Implemented the line-tracing control algorithm
 - Built FSM-based driving control
 - Implemented the AGV TCP communication protocol
-
-### 🧑‍💼 Jinhyeok Jang [`@jinhyuk2me`](https://github.com/jinhyuk2me)
-- Designed and implemented the main server
-- Designed and developed the GUI
-- Authored the overall system architecture
-- Defined the communication interfaces
-- Built and managed the database
 
 ---
 
